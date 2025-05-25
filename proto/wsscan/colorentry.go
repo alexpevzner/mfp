@@ -12,9 +12,7 @@ import (
 	"github.com/OpenPrinting/go-mfp/util/xmldoc"
 )
 
-// ColorEntry specifies the color depth and channels of the scanned image.
-// It is used to specify the color mode of the scanned image, e.g.,
-// BlackAndWhite1 for 1-bit black and white, Grayscale8 for 8-bit grayscale,
+// ColorEntry defines the color mode of a scanned image, e.g., 1-bit B/W or 8-bit grayscale.
 type ColorEntry int
 
 // known color entries:
